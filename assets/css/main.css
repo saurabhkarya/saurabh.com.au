@@ -3899,7 +3899,6 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-		padding: 200px 0;
 	}
 	
 	figcaption {
@@ -4006,3 +4005,9 @@ input, select, textarea {
 	.needpad {
 		margin-top: 10%;
 	}
+
+@media screen and (max-width: 1280px) {
+#wrapper>section .profimg{
+	display: none;
+}
+}
