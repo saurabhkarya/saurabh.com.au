@@ -4011,3 +4011,7 @@ input, select, textarea {
 	display: none;
 }
 }
+
+.no_bot_bord * {
+	border-bottom: none;
+}
